@@ -3,9 +3,8 @@ import React, { Component } from 'react';
 class NavBar extends Component {
     render() {
         return (
-            <div className="top">
-                <img src="#" alt="#" />
-                <ul>
+            <div className="nav">
+                <ul className="nav-links">
                     <li>Home</li>
                     <li>Projects</li>
                     <li>About</li>

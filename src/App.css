@@ -6,7 +6,26 @@
   list-style: none;
 }
 
-.top {
-  display: inline-flex;
-  justify-content: center;
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  min-height: 8vh;
+  background: rgb(133,136,149);
+  background: linear-gradient(90deg, rgba(133,136,149,0.8860586470916492) 0%, rgba(69,112,117,0.9364788151588761) 100%);
+  position: sticky;
+  top: 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+.nav-links li {
+  cursor: pointer;
+  text-transform: bold;
 }
