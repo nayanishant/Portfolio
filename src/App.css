@@ -1,3 +1,4 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
 * {
   margin: 0;
   padding: 0;
@@ -28,4 +29,107 @@
 .nav-links li {
   cursor: pointer;
   text-transform: bold;
+}
+
+.header {
+  background: url(./Gallery/pexels-michał-osiński-3454270.jpg) no-repeat center center / cover;
+  width: auto;
+  height: 500px;
+}
+
+.nameInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nameInfo h2 {
+  font-size: 4em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 10%;
+  color: rgba(40, 41, 40, 0.815);
+}
+
+.nameInfo p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2.5%;
+  color: rgba(210, 212, 208, 0.89);
+}
+
+.social-links{
+	padding-top: 80px;
+	display: flex;
+	position: center;
+  align-items: space-around;
+	justify-content:center;
+}
+
+.social-links a {
+  margin: 10px;
+  font-size: 2rem;
+  text-align:center;
+  display: inline-block;
+	color: var(--main-fonts-color);
+}
+
+.social-links a i{
+	cursor: pointer;
+}
+
+.projectWrap {
+  padding-top:50px;
+  height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  justify-content: center;
+	text-align:center;
+}
+
+.name1 h3 {
+  font-size: 50px;
+  letter-spacing: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.cardWrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.card {
+  display: flex;
+	flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 10px;
+	margin: 20px;
+	width: 200px;
+	height:250px;
+	border-radius:12px;
+  background-color: rgba(84, 170, 134, 0.89);
+}
+
+.card img{
+	width: 100%;
+	height:70%;
+	border-radius:10px 10px 0px 0px;
+}
+
+.card a {
+  text-decoration: none;
+  color: black;
+}
+
+.card:hover{
+	box-shadow: 0 0 1.5rem rgb(177, 146, 146);
+}
+
+.card a:hover {
+  color:#362121;
 }

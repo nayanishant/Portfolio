@@ -5,8 +5,9 @@ class NavBar extends Component {
         return (
             <div className="nav">
                 <ul className="nav-links">
-                    <li>Home</li>
-                    <li>Projects</li>
+                    <li>
+                        Project
+                    </li>
                     <li>About</li>
                     <li>Contacts</li>
                 </ul>
