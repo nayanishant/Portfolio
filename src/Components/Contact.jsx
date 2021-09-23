@@ -1,15 +1,11 @@
 import React, { Component } from 'react'
 
-class Header extends Component {
+class Contact extends Component {
     render() {
         return (
-            <div className="header" id="header0">
-                <div className="nameInfo">
-                    <h2>Nishant Nayan</h2>
-                    <p>
-                        <span className="firstline">I'm a curious engineering student who is intrested in front-end web development and DSA.</span>
-                        <span className="secondline">I have a little bit knowlege of C and Python.</span>
-                    </p>
+            <div className="contact" id="contact0">
+                <div className="contactMe">
+                    <h3>Let's Get In Touch!</h3>
                 </div>
                 <div className="social-links">
                     <a href="http://www.linkedin.com/in/nishant-nayan-773480193/" target="_blank" rel="noopener noreferrer">
@@ -21,9 +17,13 @@ class Header extends Component {
                     <a href="https://twitter.com/Nishant70607283" target="_blank" rel="noopener noreferrer">
                         <i class="fab fa-twitter"></i>
                     </a>
+                    <a href="mailto:nayanishant.info@gamil.com" target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-envelope-open"></i>
+                    </a>
                 </div>
             </div>
-        );
-    }
+        )
+    };
 }
-export default Header;
+
+export default Contact
