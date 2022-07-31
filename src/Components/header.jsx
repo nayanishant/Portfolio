@@ -7,8 +7,8 @@ class Header extends Component {
                 <div className="nameInfo">
                     <h2>Nishant Nayan</h2>
                     <p>
-                        <span className="firstline">I'm a curious engineering student who is intrested in front-end web development and DSA.</span>
-                        <span className="secondline">I have a little bit knowlege of C and Python.</span>
+                        <span className="firstline">As the core member of my college's coding club I have developed a responsive website for the club while working in a team structure where we extensively used GIT and notion to collaborate.I also have experience of creating portfolio sites and frontend of web apps.</span>
+                        <span className="secondline">My latest project is the frontend of an industrial IoT solution.</span>
                     </p>
                 </div>
                 <div className="social-links">
