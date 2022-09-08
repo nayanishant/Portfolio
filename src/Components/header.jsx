@@ -8,7 +8,7 @@ class Header extends Component {
                     <h2>Nishant Nayan</h2>
                     <p>
                         <span className="firstline">I'm a curious engineering student who is intrested in front-end web development and DSA.</span>
-                        <span className="secondline">I have a little bit knowlege of C and Python.</span>
+                        <span className="secondline">I have a basic knowlege of C and Python.</span>
                     </p>
                 </div>
                 <div className="social-links">
