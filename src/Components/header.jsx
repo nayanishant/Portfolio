@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import SocialMedia from './SocialMedia';
 
 class Header extends Component {
     render() {
@@ -11,17 +12,7 @@ class Header extends Component {
                         <span className="secondline">I have a basic knowlege of C and Python.</span>
                     </p>
                 </div>
-                <div className="social-links">
-                    <a href="http://www.linkedin.com/in/nishant-nayan-773480193/" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="https://github.com/nayanishant" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://twitter.com/Nishant70607283" target="_blank" rel="noopener noreferrer">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </div>
+                <SocialMedia />
             </div>
         );
     }

@@ -14,7 +14,7 @@ const Projects = () => {
                     {
                         projectData.map((data) => {
                             return (
-                                <div className="card" id=     {data.id}>
+                                <div className="card" id={data.id}>
                                     <img src={data.image} alt="#"/>
                                     <a href={data.url} target="_blank" rel="noopener noreferrer">
                                         {data.name}

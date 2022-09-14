@@ -13,8 +13,7 @@
   align-items: center;
   width: 100%;
   min-height: 8vh;
-  background: rgb(133,136,149);
-  background: linear-gradient(90deg, rgba(133,136,149,0.8860586470916492) 0%, rgba(69,112,117,0.9364788151588761) 100%);
+  background: linear-gradient(90deg, #001220 25%, #FBAE3C 75%);
   position: sticky;
   top: 0;
 }
@@ -36,14 +35,13 @@
 }
 
 .links:hover {
-  color: #360202b6;
-  font-weight: bold;
+  color: #fcfcfc;
 }
 
 .header {
-  background: url(./Image/pexels-michał-osiński-3454270.jpg) no-repeat center center / cover;
+  background: url(./Image/blob-scene-haikei.png) no-repeat center center / cover;
   width: auto;
-  height: 500px;
+  height: 92vh;
 }
 
 .nameInfo {
@@ -51,13 +49,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 30px;
 }
 
 .nameInfo h2 {
   font-size: 4em;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-top: 10%;
-  color: rgba(40, 41, 40, 0.815);
+  color: rgb(242, 238, 238);
 }
 
 .nameInfo p {
@@ -65,7 +64,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-top: 2.5%;
+  padding-top: 2%;
   color: rgba(210, 212, 208, 0.89);
 }
 
@@ -82,7 +81,7 @@
   font-size: 2rem;
   text-align:center;
   display: inline-block;
-	color: var(--main-fonts-color);
+	color: rgb(113, 113, 11);
 }
 
 .social-links a i{
@@ -97,7 +96,7 @@
 	align-items: center;
   justify-content: center;
 	text-align:center;
-  background-color: #A3A4BE;
+  background-color: #001220;
   padding-bottom: 40px;
 }
 
@@ -105,6 +104,7 @@
   font-size: 50px;
   letter-spacing: 5px;
   font-family: 'Times New Roman', Times, serif;
+  color: #A3A4BE;
 }
 
 .cardWrap {
@@ -124,7 +124,7 @@
 	width: 300px;
 	height:250px;
 	border-radius:12px;
-  background-color: rgba(84, 170, 134, 0.89);
+  /* background-color: rgba(84, 170, 134, 0.89); */
 }
 
 .card img{
@@ -135,7 +135,7 @@
 
 .card a {
   text-decoration: none;
-  color: black;
+  color: rgb(192, 186, 186);
 }
 
 .card:hover{
@@ -152,18 +152,19 @@
   align-items: center;
   flex-direction: column;
   height: 90vh;
-  background-color: #eeb193d8;
+  background-color: #001220;
 }
 
 .contactMe h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: 5px;
   word-spacing: 4px;
+  color: #A3A4BE;
 }
 
 .contact a i:hover {
-  color: #8b074e;
-  text-shadow: 0 0 50px #8b074e
+  color: #474741;
+  text-shadow: 0 0 50px #3b3804
 }
 
 .copyright {
