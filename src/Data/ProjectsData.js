@@ -22,6 +22,12 @@ const projectData = [
         "name": "IoT Mini Project",
         "url": "https://github.com/nayanishant/iot",
         "image": "Gallery/IoTMini.png"
+    },
+    {
+        "id": 5,
+        "name": "Blog Website",
+        "url": "https://github.com/nayanishant/peace-hub",
+        "image": "Gallery/pesce.png"
     }
 ]
 
